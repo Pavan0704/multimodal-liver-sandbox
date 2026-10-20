@@ -1,6 +1,6 @@
 # Multimodal Liver Pathology Sandbox
 
-An **AI-assisted learning project** that implements a small, reproducible pipeline inspired by the KU Leuven PhD position in AI and multimodal digital liver pathology. It compares an image-bag model, a molecular-profile model, and late fusion of both modalities.
+An **AI-assisted learning project** that implements a small, reproducible pipeline. It compares an image-bag model, a molecular-profile model, and late fusion of both modalities.
 
 Project owner: Pavan Gupta. Codex assisted with the study design, implementation, experiment execution, and documentation. Review and reproduce the work before presenting it as personal experience. This repository is a learning artifact, not independently authored applicant research.
 
