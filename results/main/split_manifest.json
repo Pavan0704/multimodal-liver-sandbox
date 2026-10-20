@@ -1,0 +1,21 @@
+{
+  "train": {
+    "patients": 252,
+    "state_0": 126,
+    "state_1": 126,
+    "patient_id_sha256": "fbc0fcbfecc04701d2bd5a2215aa71e1dcc5918d3acb38ffc9a38606728c0608"
+  },
+  "validation": {
+    "patients": 54,
+    "state_0": 27,
+    "state_1": 27,
+    "patient_id_sha256": "155c7046868eddb8ccf290eefa1b75c1f2bcb39697871148fe7f4b4a1fc842fc"
+  },
+  "test": {
+    "patients": 54,
+    "state_0": 27,
+    "state_1": 27,
+    "patient_id_sha256": "e6dc8c5c5fc04ecf3b6c3fcb3859bfd332c8869ff659ba195aee2788bade9b28"
+  },
+  "overlap_check": "passed: patient IDs are disjoint across all three splits"
+}

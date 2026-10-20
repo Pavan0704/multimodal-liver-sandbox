@@ -1,0 +1,35 @@
+{
+  "project": "multimodal-liver-sandbox",
+  "data": "procedurally generated synthetic toy cohort; no real tissue, patients, genes, or diagnoses",
+  "n_patients": 360,
+  "patches_per_patient": 8,
+  "patch_shape_chw": [
+    3,
+    28,
+    28
+  ],
+  "molecular_features": 18,
+  "label": "synthetic binary latent state",
+  "patient_level_split": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "model_seeds": [
+    7,
+    17,
+    27
+  ],
+  "max_epochs": 14,
+  "early_stopping_patience": 4,
+  "batch_size": 32,
+  "optimizer": "AdamW(lr=0.002, weight_decay=0.0001)",
+  "model_selection": "lowest validation BCE; balanced-accuracy threshold selected on validation; test split used only for final scoring",
+  "software": {
+    "python": "3.11.4",
+    "torch": "2.0.1+cpu",
+    "numpy": "2.4.2",
+    "pandas": "3.0.0",
+    "scikit_learn": "1.8.0"
+  }
+}
