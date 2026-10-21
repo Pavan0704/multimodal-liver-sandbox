@@ -51,7 +51,6 @@ See [LEARNING_GUIDE.md](LEARNING_GUIDE.md) before discussing the model in an int
 
 ## References
 
-- KU Leuven position: [PhD position in AI and multimodal digital liver pathology](https://academicpositions.com/ad/ku-leuven/2026/phd-position-in-ai-and-multimodal-digital-liver-pathology/253989).
 - Ilse, Tomczak, and Welling (2018), [Attention-based Deep Multiple Instance Learning](https://proceedings.mlr.press/v80/ilse18a.html).
 - Campanella et al. (2019), [Clinical-grade computational pathology using weakly supervised deep learning on whole slide images](https://doi.org/10.1038/s41591-019-0508-1).
 
